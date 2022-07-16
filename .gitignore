@@ -1,0 +1,8 @@
+.DS_Store
+__pycache__
+build/*
+tmp/*
+ceres_python.egg-info/*
+dist/*
+.vscode/*
+bundle_adjustment_values.txt

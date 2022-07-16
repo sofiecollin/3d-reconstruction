@@ -1,0 +1,6 @@
+[submodule "ext/ceres_pybind/ceres-solver"]
+	path = ext/ceres_pybind/ceres-solver
+	url = https://github.com/ceres-solver/ceres-solver.git
+[submodule "ext/ceres_pybind/pybind11"]
+	path = ext/ceres_pybind/pybind11
+	url = https://github.com/pybind/pybind11.git
