@@ -1,4 +1,12 @@
-# TSBB15 Project 2
+# 3D Reconstruction
+This project aims to reconstruct a 3D scene by finding corresponding points in consecutive 2D images. The points of the scene are visualized and the camera poses are evaluated against the ground truth provided for the scene.
+
+Correspondences between images are found using *Harris Interest Points* and used to estimate the fundamental matrix *F* by running the *Gold Standard Algorithm*. New views are added using the *PnP Algorithm* and refined by *Bundle Adjustment*.
+
+![image](https://github.com/user-attachments/assets/6bc69f1e-2afa-40f5-941c-8e46fb336355)
+
+
+
 
 ## To build with Ceres and Pybind:
 
